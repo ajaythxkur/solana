@@ -17,7 +17,7 @@ if(balanceInLamports < 5000){
 const transaction = new Transaction();
 const LAMPORTS_TO_SEND = 5000;
 const sendSolTransaction = SystemProgram.transfer({
-    fromPubkey:senderKeypair.   publicKey,
+    fromPubkey:senderKeypair.publicKey,
     toPubkey,
     lamports: LAMPORTS_TO_SEND
 });
