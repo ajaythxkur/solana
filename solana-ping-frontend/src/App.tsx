@@ -4,6 +4,7 @@ import WalletContextProvider from './components/WalletContextProvider'
 import { AppBar } from './components/AppBar'
 import { PingButton } from './components/PingButton'
 import { From } from './components/Form'
+import { MovieList } from './components/MovieList'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
           <div>
           <PingButton />
           <From />
+          <MovieList />
         </div>
         </WalletContextProvider>
       </div>
